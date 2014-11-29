@@ -49,7 +49,7 @@ angular.module('slick', []).directive('slick', [
               accessibility: scope.accessibility !== 'false',
               arrows: scope.arrows !== 'false',
               autoplay: scope.autoplay === 'true',
-              autoplaySpeed: scope.autoplaySpeed != null ? parseInt(scope.autoplaySpeed, 10) : 3000,
+              autoplaySpeed: scope.autoplaySpeed != null ? parseInt(scope.autoplaySpeed, 10) : 6500,
               centerMode: scope.centerMode === 'true',
               centerPadding: scope.centerPadding || '50px',
               cssEase: scope.cssEase || 'ease',
